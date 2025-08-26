@@ -1,6 +1,7 @@
-Week 1 Progress Log
+**Week 1 Progress Log**
 
-Environment & Containerization
+**Environment & Containerization**
+
  Built a ROS 2 Humble dev image (Ubuntu 22.04 base).
 
  Added ROS 2 apt repo via keyring; installed ros-humble-desktop.
@@ -15,7 +16,7 @@ Environment & Containerization
 
  Confirmed Docker run/exec lifecycle, bind-mounts, logs, prune.
 
-Git & Repo Hygiene
+**Git & Repo Hygiene**
 
  Set global identity (user.name, user.email).
 
@@ -23,9 +24,9 @@ Git & Repo Hygiene
 
  Initialized two repos:
 
-ros2_ws (workspace; .gitignore with build, install, log, etc.)
+   ros2_ws (workspace; .gitignore with build, install, log, etc.)
 
-robotics-portfolio (notes/demos; basic .gitignore)
+   robotics-portfolio (notes/demos; basic .gitignore)
 
  Adopted Conventional Commits; added commit template.
 
@@ -33,13 +34,13 @@ robotics-portfolio (notes/demos; basic .gitignore)
 
  Configured .clang-format and pyproject.toml for formatter rules.
 
-C++ refresher (pure CMake)
+**C++ refresher (pure CMake)**
 
  Wrote minimal main.cpp and CMakeLists.txt.
 
  Built with cmake -S -B and cmake --build, ran binary.
 
-ROS 2 Workspace
+**ROS 2 Workspace**
 
  Created C++ package cpp_pubsub (rclcpp/std_msgs).
 
@@ -55,7 +56,7 @@ ROS 2 Workspace
 
  Used ros2 topic list/echo to inspect /chatter.
 
-Quality & Push
+**Quality & Push**
 
  Ran pre-commit run --all-files and formatters.
 
